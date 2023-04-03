@@ -22,6 +22,6 @@ jobs:
         go-version: 1.19
 
     - name: Build
-      run: go build -v dumpling/cmd/dumpling/main.go
+      run: go build -v cmd/main.go
 
 
